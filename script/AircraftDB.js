@@ -1,7 +1,7 @@
 //Answers
 export const fightersAnswers = [
     //NATO Fighters
-    ['F15 Eagle', 'bomber', 'friend'], 'F16 Fighting Falcon', 'F18 hornet', 'F22 Raptor', 'F35 Lighting', 'A-10 Warthog', 'JAS-39 Gripen', 'Typhoon', 'Rafale', 'M-346 Master',
+    'F15 Eagle', 'F16 Fighting Falcon', 'F18 hornet', 'F22 Raptor', 'F35 Lighting', 'A-10 Warthog', 'JAS-39 Gripen', 'Typhoon', 'Rafale', 'M-346 Master',
 
     //Russian Fighters
     'MIG-29 Fulcrum', 'MIG-31 Foxhound', 'SU-24 Fencer', 'SU-25 Frogfoot', 'Flanker', 'SU-34 Fullback', 'SU-57 Felon', 'YAK-130 Mitten', 'L-39 Albatros',

@@ -1,4 +1,4 @@
-import {allAircraft, allAnswers} from '../script/AircraftDB copy.js'
+import {allAircraft, allAnswers} from '../script/AircraftDB.js'
 
 document.querySelector('#restartButton').style.display = 'none'
 let answeredQuestions = 0

@@ -1,4 +1,4 @@
-import {fighters, fightersAnswers} from '../script/AircraftDB copy.js'
+import {fighters, fightersAnswers} from '../script/AircraftDB.js'
 
 document.querySelector('#restartButton').style.display = 'none'
 let answeredQuestions = 0
@@ -11,13 +11,10 @@ const display = document.querySelector('#answerDisplay')
 
 function askQuestion() {
     if (isRunning) {
-        let index = Math.floor(Math.random() * 0) // fighters.length
+        let index = Math.floor(Math.random() * fighters.length)
         const randomSubArray = fighters[index];
         const q = randomSubArray[Math.floor(Math.random() * randomSubArray.length)];
-        const a = fightersAnswers[index][0]
-        const r = fightersAnswers[index][1]
-        const fof = fightersAnswers[index][2]
-        console.log(a) //verwijderen maar dan weet ik het antwoord voor test purposes :)
+        const a = fightersAnswers[index]
         image.src = q
     
         document.querySelector('#submitButton').onclick = function nextQuestion() {

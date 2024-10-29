@@ -1,4 +1,4 @@
-import {transport, transportAnswers} from '../script/AircraftDB copy.js'
+import {transport, transportAnswers} from '../script/AircraftDB.js'
 
 document.querySelector('#restartButton').style.display = 'none'
 let answeredQuestions = 0

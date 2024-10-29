@@ -1,4 +1,4 @@
-import {allAircraft, allAnswers} from '../script/AircraftDB copy.js'
+import {allAircraft, allAnswers} from '../script/AircraftDB.js'
 
 const image = document.querySelector('#questionImage') //selecteerd de img in html
 let value = ''
