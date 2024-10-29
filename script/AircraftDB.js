@@ -185,7 +185,11 @@ export const fighters = [
     ],
 
     [ //albatros
-
+        '../images/albatros/albatros-1.jpg',
+        '../images/albatros/albatros-2.jpg',
+        '../images/albatros/albatros-3.jpg',
+        '../images/albatros/albatros-4.jpg',
+        '../images/albatros/albatros-5.jpg',
     ],
 ]
 
