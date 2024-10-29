@@ -1,14 +1,14 @@
 //Answers
 export const fightersAnswers = [
     //NATO Fighters
-    'F15 Eagle', 'F16 Fighting Falcon', 'F18 hornet', 'F22 Raptor', 'F35 Lighting', 'A-10 Warthog', 'JAS-39 Gripen', 'Typhoon', 'Rafale', 'M-346 Master',
+    ['F15 Eagle', 'Multirole', 'Friend'], ['F16 Fighting Falcon', 'Multirole', 'Friend'], ['F18 hornet', 'Multirole', 'Friend'], ['F22 Raptor', 'Multirole', 'Friend'], ['F35 Lighting', 'Multirole', 'Friend'], ['A-10 Warthog', 'CAS', 'Friend'], ['JAS-39 Gripen', 'Multirole', 'Friend'], ['Typhoon', 'Multirole', 'Friend'], ['Rafale', 'Multirole', 'Friend'], ['M-346 Master', 'Trainer', 'Friend'],
 
     //Russian Fighters
-    'MIG-29 Fulcrum', 'MIG-31 Foxhound', 'SU-24 Fencer', 'SU-25 Frogfoot', 'Flanker', 'SU-34 Fullback', 'SU-57 Felon', 'YAK-130 Mitten', 'L-39 Albatros',
+    ['MIG-29 Fulcrum', 'Fighter', 'Foe'], ['MIG-31 Foxhound', 'Fighter', 'Foe'], ['SU-24 Fencer', 'Bomber', 'Foe'], ['SU-25 Frogfoot', 'CAS', 'Foe'], ['Flanker', 'Multirole', 'Foe'], ['SU-34 Fullback', 'Bomber', 'Foe'], ['SU-57 Felon', 'Multirole', 'Foe'], ['YAK-130 Mitten', 'Trainer', 'Foe'], ['L-39 Albatros', 'Trainer', 'Foe'],
 ]
 
 export const transportAnswers = [
-    //NATO Transport
+    //NATO Transport 
     'C-17 Globemaster', 'C-130 Hercules', 'C-295 Transport', 'C-27 Spartan',
     
     //Russian Transport
