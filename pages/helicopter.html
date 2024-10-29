@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHK - Helikopters</title>
+    <link rel="stylesheet" href="../styles/quiz.css">
+    <link rel="shortcut icon" href="../images/img/jet.png" type="image/x-icon">
+    <script type="module" src="../script/helicopter.js" defer></script>
+</head>
+<body>
+    <div id="quizContainer">
+        <div id="topContainer">
+            <a href="../index.html" id="home">Home</a>
+            <p id="answerDisplay"></p>
+            <div id="scoreContainer">
+                <h3 id="score"></h3>
+                <h3>/</h3>
+                <h3 id="numAsked"></h3>
+            </div>
+        </div>
+        <div id="imgContainer">
+            <img id="questionImage" src="">
+        </div>
+        <div id="bottomContainer">
+            <button id="restartButton" onclick=location.reload()>Restart</button>
+            <select name="answerList" id="answerList">
+                <option value="cobra">AH-1Z Cobra</option>
+                <option value="apache">AH-64 Apache</option>
+                <option value="dauphin">AS-365 Dauphin</option>
+                <option value="cougar">Cougar</option>
+                <option value="chinook">CH-47 Chinook</option>
+                <option value="tiger">EC-665 Tiger</option>
+                <option value="ec135">EC-135</option>
+                <option value="blackhawk">UH-60 Blackhawk</option>
+                <option value="nh90">NH-90</option>
+                <option value="sokol">W-3A Sokol</option>
+                <option value="helix">KA-27 Helix</option>
+                <option value="hokum">KA-52 Hokum</option>
+                <option value="hoplite">MI-2 Hoplite</option>
+                <option value="hip">MI-8/17 Hip</option>
+                <option value="hind">MI-24/35M Hind</option>
+                <option value="Havoc">MI-28 Havoc</option>
+            </select>
+            <button id="submitButton">Next</button>
+        </div>
+    </div>
+
+</body>
+</html>

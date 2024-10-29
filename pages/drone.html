@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHK - Drones</title>
+    <link rel="stylesheet" href="../styles/quiz.css">
+    <link rel="shortcut icon" href="../images/img/jet.png" type="image/x-icon">
+    <script type="module" src="../script/drone.js" defer></script>
+</head>
+<body>
+    <div id="quizContainer">
+        <div id="topContainer">
+            <a href="../index.html" id="home">Home</a>
+            <p id="answerDisplay"></p>
+            <div id="scoreContainer">
+                <h3 id="score"></h3>
+                <h3>/</h3>
+                <h3 id="numAsked"></h3>
+            </div>
+        </div>
+        <div id="imgContainer">
+            <img id="questionImage" src="">
+        </div>
+        <div id="bottomContainer">
+            <button id="restartButton" onclick=location.reload()>Restart</button>
+            <select name="answerList" id="answerList">
+                <option value=""></option>
+
+            </select>
+            <button id="submitButton">Next</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHK - Fighters</title>
+    <link rel="stylesheet" href="../styles/quiz.css">
+    <link rel="shortcut icon" href="../images/img/jet.png" type="image/x-icon">
+    <script type="module" src="../script/fighter.js" defer></script>
+</head>
+<body>
+    <div id="quizContainer">
+        <div id="topContainer">
+            <a href="../index.html" id="home">Home</a>
+            <p id="answerDisplay"></p>
+            <div id="scoreContainer">
+                <h3 id="score"></h3>
+                <h3>/</h3>
+                <h3 id="numAsked"></h3>
+            </div>
+        </div>
+        <div id="imgContainer">
+            <img id="questionImage" src="">
+        </div>
+        <div id="bottomContainer">
+            <button id="restartButton" onclick=location.reload()>Restart</button>
+            <select name="answerList" id="answerList">
+                <option value="F15 Eagle">F15 Eagle</option>
+                <option value="F16 Fighting Falcon">F16 Fighting Falcon</option>
+                <option value="F18 hornet">F18 hornet</option>
+                <option value="F22 Raptor">F22 Raptor</option>
+                <option value="F35 Lighting">F35 Lighting</option>
+                <option value="A-10 Warthog">A-10 Warthog</option>
+                <option value="JAS-39 Gripen">JAS-39 Gripen</option>
+                <option value="Typhoon">Typhoon</option>
+                <option value="Rafale">Rafale</option>
+                <option value="M-346 Master">M-346 Master</option>
+                <option value="MIG-29 Fulcrum">MIG-29 Fulcrum</option>
+                <option value="MIG-31 Foxhound">MIG-31 Foxhound</option>
+                <option value="SU-24 Fencer">SU-24 Fencer</option>
+                <option value="SU-25 Frogfoot">SU-25 Frogfoot</option>
+                <option value="Flanker">Flanker</option>
+                <option value="SU-34 Fullback">SU-34 Fullback</option>
+                <option value="SU-57 Felon">SU-57 Felon</option>
+                <option value="YAK-130 Mitten">YAK-130 Mitten</option>
+                <option value="L-39 Albatros">L-39 Albatros</option>
+            </select>
+            <button id="submitButton">Next</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHK - Transportvliegtuigen</title>
+    <link rel="stylesheet" href="../styles/quiz.css">
+    <link rel="shortcut icon" href="../images/img/jet.png" type="image/x-icon">
+    <script type="module" src="../script/transport.js" defer></script>
+</head>
+<body>
+    <div id="quizContainer">
+        <div id="topContainer">
+            <a href="../index.html" id="home">Home</a>
+            <p id="answerDisplay"></p>
+            <div id="scoreContainer">
+                <h3 id="score"></h3>
+                <h3>/</h3>
+                <h3 id="numAsked"></h3>
+            </div>
+        </div>
+        <div id="imgContainer">
+            <img id="questionImage" src="">
+        </div>
+        <div id="bottomContainer">
+            <button id="restartButton" onclick=location.reload()>Restart</button>
+            <select name="answerList" id="answerList">
+                <option value="globemaster">C-17 Globemaster</option>
+                <option value="hercules">C-130 Hercules</option>
+                <option value="c295">C-295 Transport</option>
+                <option value="c27Spartan">C-27 Spartan</option>
+                <option value="cub">AN-12 Cub</option>
+                <option value="curl">AN-26 Curl</option>
+                <option value="candid">IL-76MD Candid</option>
+            </select>
+            <button id="submitButton">Next</button>
+        </div>
+    </div>
+
+</body>
+</html>
