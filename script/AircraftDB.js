@@ -9,21 +9,21 @@ export const fightersAnswers = [
 
 export const transportAnswers = [
     //NATO Transport 
-    'C-17 Globemaster', 'C-130 Hercules', 'C-295 Transport', 'C-27 Spartan',
+    ['C-17 Globemaster', 'Friend'], ['C-130 Hercules', 'Friend'], ['C-295 Transport', 'Friend'], ['C-27 Spartan', 'Friend'],
     
     //Russian Transport
-    'AN-12 Cub', 'AN-26 Curl', 'IL-76MD Candid',
+    ['AN-12 Cub', 'Foe'], ['AN-26 Curl', 'Foe'], ['IL-76MD Candid', 'Foe'],
 ]
 
 export const helicoptersAnswers = [
     //Nato AH
-    'AH-1Z Cobra', 'AH-64 Apache',
+    ['AH-1Z Cobra', 'Attack', 'Friend'], ['AH-64 Apache', 'Attack', 'Friend'],
 
     //Nato TH/UH
-    'AS-365 Dauphin', 'Cougar', 'CH-47 Chinook', 'EC-665 Tiger', 'EC-135', 'UH-60 Blackhawk', 'NH-90',
+    ['AS-365 Dauphin', 'Utillity', 'Friend'], ['Cougar', 'Utillity', 'Friend'], ['CH-47 Chinook', 'Transport', 'Friend'], ['EC-665 Tiger', 'Attack', 'Friend'], ['EC-135', 'Utillity', 'Friend'], ['UH-60 Blackhawk', 'Utillity', 'Friend'], ['NH-90', 'Utillity', 'Friend'], ['W-3A Sokol', 'Utillity', 'Friend'],
 
-    //Russian TH/UH
-    'W-3A Sokol', 'KA-27 Helix', 'KA-52 Hokum', 'MI-2 Hoplite', 'MI-8/17 Hip','MI-24/35M Hind', 'MI-28 Havoc',
+    //Russian
+    ['KA-27 Helix', 'ASW', 'Foe'], ['KA-52 Hokum', 'Attack', 'Foe'], ['MI-2 Hoplite', 'Utillity', 'Foe'], ['MI-8/17 Hip', 'Transport', 'Foe'], ['MI-24/35M Hind', 'Attack', 'Foe'], ['MI-28 Havoc', 'Attack', 'Foe'],
 ]
 
 export const specialAnswers = [    
@@ -195,31 +195,60 @@ export const fighters = [
 
 export const transport = [
     [ //globemaster
-
+        '../images/transport/globemaster/globemaster-1.webp',
+        '../images/transport/globemaster/globemaster-2.jpg',
+        '../images/transport/globemaster/globemaster-3.jpg',
+        '../images/transport/globemaster/globemaster-4.webp',
+        '../images/transport/globemaster/globemaster-5.jpg',
+        '../images/transport/globemaster/globemaster-6.jpg',
     ],
 
     [ //hercules
-
+        '../images/transport/hercules/hercules-1.jpg',
+        '../images/transport/hercules/hercules-2.jpg',
+        '../images/transport/hercules/hercules-3.jpg',
+        '../images/transport/hercules/hercules-4.webp',
+        '../images/transport/hercules/hercules-5.jpg',
     ],
 
     [ //c295
-
+        '../images/transport/c295/c295-1.jpg',
+        '../images/transport/c295/c295-2.jpg',
+        '../images/transport/c295/c295-3.webp',
+        '../images/transport/c295/c295-4.webp',
+        '../images/transport/c295/c295-5.jpg',
     ],
 
-    [ //c27Spartan
-
+    [ //c27
+        '../images/transport/c27/c27-1.jpg',
+        '../images/transport/c27/c27-2.jpg',
+        '../images/transport/c27/c27-3.jpg',
+        '../images/transport/c27/c27-4.jpg',
+        '../images/transport/c27/c27-5.jpg',
     ],
 
     //foe
     [ //cub
-
+        '../images/transport/cub/cub-1.jpg',
+        '../images/transport/cub/cub-2.jpg',
+        '../images/transport/cub/cub-3.jpg',
+        '../images/transport/cub/cub-4.jpg',
+        '../images/transport/cub/cub-5.webp',
     ],
 
     [ //curl
-
+        '../images/transport/curl/curl-1.jpg',
+        '../images/transport/curl/curl-2.jpg',
+        '../images/transport/curl/curl-3.jpg',
+        '../images/transport/curl/curl-4.webp',
+        '../images/transport/curl/curl-5.webp',
     ],
     [ //candid
-
+        '../images/transport/candid/candid-1.webp',
+        '../images/transport/candid/candid-2.webp',
+        '../images/transport/candid/candid-3.jpg',
+        '../images/transport/candid/candid-4.jpg',
+        '../images/transport/candid/candid-5.jpg',
     ],
 ]
 
@@ -231,7 +260,7 @@ export const helicopters = [
         '../images/helicopters/cobra/cobra-1.jpg',
         '../images/helicopters/cobra/cobra-2.jpg',
         '../images/helicopters/cobra/cobra-3.png',
-        '../images/helicopters/cobra/cobra-4.png',
+        '../images/helicopters/cobra/cobra-4.jpg',
         '../images/helicopters/cobra/cobra-5.png',
         '../images/helicopters/cobra/cobra-6.png',
         '../images/helicopters/cobra/cobra-7.jpg',
@@ -262,7 +291,7 @@ export const helicopters = [
         '../images/helicopters/cougar/cougar-2.jpg',
         '../images/helicopters/cougar/cougar-3.jpg',
         '../images/helicopters/cougar/cougar-4.jpg',
-        '../images/helicopters/cougar/cougar-5.png',
+        '../images/helicopters/cougar/cougar-5.jpg',
     ],
     //chinook
     [
@@ -270,59 +299,117 @@ export const helicopters = [
         '../images/helicopters/chinook/chinook-2.jpg',
         '../images/helicopters/chinook/chinook-3.jpg',
         '../images/helicopters/chinook/chinook-4.jpg',
-        '../images/helicopters/chinook/chinook-5.png',
+        '../images/helicopters/chinook/chinook-5.jpg',
     ],
     //tiger
     [
-
+        '../images/helicopters/tiger/tiger-1.webp',
+        '../images/helicopters/tiger/tiger-2.jpg',
+        '../images/helicopters/tiger/tiger-3.webp',
+        '../images/helicopters/tiger/tiger-4.webp',
     ],
     //ec135
     [
+        '../images/helicopters/tiger/tiger-1.webp',
+        '../images/helicopters/tiger/tiger-2.jpg',
+        '../images/helicopters/tiger/tiger-3.webp',
+        '../images/helicopters/tiger/tiger-4.webp',
 
     ],
     //blackhawk
     [
+        '../images/helicopters/blackhawk/blackhawk-1.jpg',
+        '../images/helicopters/blackhawk/blackhawk-2.jpg',
+        '../images/helicopters/blackhawk/blackhawk-3.png',
+        '../images/helicopters/blackhawk/blackhawk-4.webp',
+        '../images/helicopters/blackhawk/blackhawk-5.jpg',
 
     ],
     //nh90
     [
-
+        '../images/helicopters/nh90/nh90-1.jpg',
+        '../images/helicopters/nh90/nh90-2.jpg',
+        '../images/helicopters/nh90/nh90-3.webp',
+        '../images/helicopters/nh90/nh90-4.jpg',
+        '../images/helicopters/nh90/nh90-5.jpg',
+        '../images/helicopters/nh90/nh90-6.jpg',
     ],
 
     //Rusian
     //sokol
     [
+        '../images/helicopters/sokol/sokol-1.jpg',
+        '../images/helicopters/sokol/sokol-2.jpg',
+        '../images/helicopters/sokol/sokol-3.jpg',
+        '../images/helicopters/sokol/sokol-4.jpg',
+        '../images/helicopters/sokol/sokol-5.jpg',
+        '../images/helicopters/sokol/sokol-6.jpg',
         
     ],
 
     //helix
     [
-        
+        '../images/helicopters/helix/helix-1.jpg',
+        '../images/helicopters/helix/helix-2.jpg',
+        '../images/helicopters/helix/helix-3.jpg',
+        '../images/helicopters/helix/helix-4.jpg',
     ],
 
     //hokum
     [
+        '../images/helicopters/hokum/hokum-1.jpeg',
+        '../images/helicopters/hokum/hokum-2.webp',
+        '../images/helicopters/hokum/hokum-3.webp',
+        '../images/helicopters/hokum/hokum-4.jpg',
         
     ],
 
     //hoplite
     [
-
+        '../images/helicopters/hoplite/hoplite-1.jpg',
+        '../images/helicopters/hoplite/hoplite-2.jpg',
+        '../images/helicopters/hoplite/hoplite-3.jpg',
+        '../images/helicopters/hoplite/hoplite-4.jpg',
     ],
 
     //hip
     [
+        '../images/helicopters/hip/hip-1.jpg',
+        '../images/helicopters/hip/hip-2.jpg',
+        '../images/helicopters/hip/hip-3.jpg',
+        '../images/helicopters/hip/hip-4.jpg',
+        '../images/helicopters/hip/hip-5.jpg',
+        '../images/helicopters/hip/hip-6.jpg',
+        '../images/helicopters/hip/hip-7.jpg',
+        '../images/helicopters/hip/hip-8.webp',
+        '../images/helicopters/hip/hip-9.jpg',
+        '../images/helicopters/hip/hip-10.jpg',
+        '../images/helicopters/hip/hip-11.webp',
+
 
     ],
 
     //hind
     [
-
+        '../images/helicopters/hind/hind-1.jpg',
+        '../images/helicopters/hind/hind-2.jpg',
+        '../images/helicopters/hind/hind-3.jpg',
+        '../images/helicopters/hind/hind-4.jpg',
+        '../images/helicopters/hind/hind-5.webp',
+        '../images/helicopters/hind/hind-6.jpg',
+        '../images/helicopters/hind/hind-7.png',
     ],
 
     //havoc
     [
-
+        '../images/helicopters/havoc/havoc-1.webp',
+        '../images/helicopters/havoc/havoc-2.webp',
+        '../images/helicopters/havoc/havoc-3.jpg',
+        '../images/helicopters/havoc/havoc-4.jpg',
+        '../images/helicopters/havoc/havoc-5.jpg',
+        '../images/helicopters/havoc/havoc-6.jpg',
+        '../images/helicopters/havoc/havoc-7.jpg',
+        '../images/helicopters/havoc/havoc-8.jpg',
     ],
 ]
 
