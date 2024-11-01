@@ -9,10 +9,10 @@ export const fightersAnswers = [
 
 export const transportAnswers = [
     //NATO Transport 
-    ['C-17 Globemaster', 'Friend'], ['C-130 Hercules', 'Friend'], ['C-295 Transport', 'Friend'], ['C-27 Spartan', 'Friend'],
+    ['C-17 Globemaster', 'Transport', 'Friend'], ['C-130 Hercules', 'Transport', 'Friend'], ['C-295 Transport', 'Transport', 'Friend'], ['C-27 Spartan', 'Transport', 'Friend'],
     
     //Russian Transport
-    ['AN-12 Cub', 'Foe'], ['AN-26 Curl', 'Foe'], ['IL-76MD Candid', 'Foe'],
+    ['AN-12 Cub', 'Transport', 'Foe'], ['AN-26 Curl', 'Transport', 'Foe'], ['IL-76MD Candid', 'Transport', 'Foe'],
 ]
 
 export const helicoptersAnswers = [
