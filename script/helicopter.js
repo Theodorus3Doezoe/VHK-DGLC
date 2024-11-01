@@ -15,20 +15,28 @@ function askQuestion() {
         let index = Math.floor(Math.random() * helicopters.length)
         const randomSubArray = helicopters[index];
         const q = randomSubArray[Math.floor(Math.random() * randomSubArray.length)];
-        const a = helicoptersAnswers[index]
+        const a = helicoptersAnswers[index][0]
+        const r = helicoptersAnswers[index][1]
+        const fof = helicoptersAnswers[index][2]
         console.log(a) //verwijderen maar dan weet ik het antwoord voor test purposes :)
         image.src = q
     
         document.querySelector('#submitButton').onclick = function nextQuestion() {
-        let answer = document.querySelector('#answerList').value;
-        if (answer === a) {
-            display.innerHTML = 'Correct!'
-            score += 1;
-        } else {
-            display.innerHTML = `Fout, het was een ${a}.`
-        }
-        answeredQuestions += 1;
-        askQuestion();
+            let answer = [];
+
+            answer.push(document.querySelector('#answerList').value)
+            answer.push(document.querySelector('#role').value)
+            answer.push(document.querySelector('#fof').value)
+
+            if (answer[0] === a && answer[1] === r && answer[2] === fof) {
+                display.innerHTML = 'Correct!'
+                score += 1;
+            } else {
+                display.innerHTML = `Fout, het was een ${a}, ${r}, ${fof}.`
+            }
+            
+            answeredQuestions += 1;
+            askQuestion();
         };
         
     } else {

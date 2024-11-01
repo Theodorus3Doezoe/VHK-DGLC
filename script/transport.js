@@ -14,20 +14,26 @@ function askQuestion() {
         let index = Math.floor(Math.random() * transport.length)
         const randomSubArray = transport[index];
         const q = randomSubArray[Math.floor(Math.random() * randomSubArray.length)];
-        const a = transportAnswers[index]
+        const a = transportAnswers[index][0]
+        const fof = transportAnswers[index][1]
         console.log(a) //verwijderen maar dan weet ik het antwoord voor test purposes :)
         image.src = q
     
         document.querySelector('#submitButton').onclick = function nextQuestion() {
-        let answer = document.querySelector('#answerList').value;
-        if (answer === a) {
-            display.innerHTML = 'Correct!'
-            score += 1;
-        } else {
-            display.innerHTML = `Fout, het was een ${a}.`
-        }
-        answeredQuestions += 1;
-        askQuestion();
+            let answer = [];
+
+            answer.push(document.querySelector('#answerList').value)
+            answer.push(document.querySelector('#fof').value)
+
+            if (answer[0] === a && answer[1] === fof) {
+                display.innerHTML = 'Correct!'
+                score += 1;
+            } else {
+                display.innerHTML = `Fout, het was een ${a}, ${fof}.`
+            }
+            
+            answeredQuestions += 1;
+            askQuestion();
         };
         
     } else {

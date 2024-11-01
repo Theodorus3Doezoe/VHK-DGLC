@@ -14,20 +14,29 @@ function askQuestion() {
         let index = Math.floor(Math.random() * fighters.length)
         const randomSubArray = fighters[index];
         const q = randomSubArray[Math.floor(Math.random() * randomSubArray.length)];
-        const a = fightersAnswers[index]
+        const a = fightersAnswers[index][0]
+        const r = fightersAnswers[index][1]
+        const fof = fightersAnswers[index][2]
         image.src = q
     
+        console.log(a, r, fof)
+
         document.querySelector('#submitButton').onclick = function nextQuestion() {
-        let answer = document.querySelector('#answerList').value;
-        if (answer === a) {
-            display.innerHTML = 'Correct!'
-            score += 1;
-        } else {
-            display.innerHTML = `Fout, het was een ${a}.`
-            console.log(answer)
-        }
-        answeredQuestions += 1;
-        askQuestion();
+            let answer = [];
+
+            answer.push(document.querySelector('#answerList').value)
+            answer.push(document.querySelector('#role').value)
+            answer.push(document.querySelector('#fof').value)
+
+            if (answer[0] === a && answer[1] === r && answer[2] === fof) {
+                display.innerHTML = 'Correct!'
+                score += 1;
+            } else{
+                display.innerHTML = `Fout, het was een ${a}, ${r}, ${fof}.`
+            }
+            
+            answeredQuestions += 1;
+            askQuestion();
         };
         
     } else {
