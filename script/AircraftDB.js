@@ -180,7 +180,7 @@ export const fighters = [
     [ //mitten
         '../images/fighters/mitten/mitten-1.jpg',
         '../images/fighters/mitten/mitten-2.jpg',
-        '../images/fighters/mitten/mitten-3.JPG',
+        '../images/fighters/mitten/mitten-3.webp',
         '../images/fighters/mitten/mitten-4.jpg',
     ],
 
