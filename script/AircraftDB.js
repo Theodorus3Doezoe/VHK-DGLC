@@ -433,7 +433,7 @@ export const drones = [
 
     ],
 ]
-
-export const allAircraft = fighters.concat(transport, helicopters, special, drones)
-export const allAnswers = fightersAnswers.concat(transportAnswers, helicoptersAnswers, specialAnswers, dronesAnswers)
+// Later drones toevoegen
+export const allAircraft = fighters.concat(transport, helicopters)
+export const allAnswers = fightersAnswers.concat(transportAnswers, helicoptersAnswers)
 
