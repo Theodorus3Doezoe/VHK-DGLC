@@ -15,7 +15,7 @@ function askQuestion() {
         const randomSubArray = transport[index];
         const q = randomSubArray[Math.floor(Math.random() * randomSubArray.length)];
         const a = transportAnswers[index][0]
-        const fof = transportAnswers[index][1]
+        const fof = transportAnswers[index][2]
         console.log(a) //verwijderen maar dan weet ik het antwoord voor test purposes :)
         image.src = q
     

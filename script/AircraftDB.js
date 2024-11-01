@@ -205,7 +205,7 @@ export const transport = [
 
     [ //hercules
         '../images/transport/hercules/hercules-1.jpg',
-        '../images/transport/hercules/hercules-2.jpg',
+        '../images/transport/hercules/hercules-2.webp',
         '../images/transport/hercules/hercules-3.jpg',
         '../images/transport/hercules/hercules-4.webp',
         '../images/transport/hercules/hercules-5.jpg',
