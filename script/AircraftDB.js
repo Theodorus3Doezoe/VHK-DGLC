@@ -124,7 +124,7 @@ export const fighters = [
         '../images/fighters/foxhound/foxhound-2.jpg',
         '../images/fighters/foxhound/foxhound-3.jpg',
         '../images/fighters/foxhound/foxhound-4.png',
-        '../images/fighters/foxhound/foxhound-5.jpg',
+        '../images/fighters/foxhound/foxhound-5.jpeg',
         '../images/fighters/foxhound/foxhound-6.jpg',
         '../images/fighters/foxhound/foxhound-7.jpg',
     ],
@@ -180,7 +180,7 @@ export const fighters = [
     [ //mitten
         '../images/fighters/mitten/mitten-1.jpg',
         '../images/fighters/mitten/mitten-2.jpg',
-        '../images/fighters/mitten/mitten-3.jpg',
+        '../images/fighters/mitten/mitten-3.JPG',
         '../images/fighters/mitten/mitten-4.jpg',
     ],
 
