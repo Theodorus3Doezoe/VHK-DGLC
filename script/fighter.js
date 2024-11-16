@@ -22,19 +22,21 @@ function askQuestion() {
         console.log(a, r, fof)
 
         document.querySelector('#submitButton').onclick = function nextQuestion() {
-        let answer = [];
-        answer.push(document.querySelector('#answerList').value)
-        answer.push(document.querySelector('#role').value)
-        answer.push(document.querySelector('#fof').value)
+            let answer = [];
 
-        if (answer[0] === a && answer[1] === r && answer[2] === fof) {
-            display.innerHTML = 'Correct!'
-            score += 1;
-        } else{
-            display.innerHTML = `Fout, het was een ${a}, ${r}, ${fof}.`
-        }
-        answeredQuestions += 1;
-        askQuestion();
+            answer.push(document.querySelector('#answerList').value)
+            answer.push(document.querySelector('#role').value)
+            answer.push(document.querySelector('#fof').value)
+
+            if (answer[0] === a && answer[1] === r && answer[2] === fof) {
+                display.innerHTML = 'Correct!'
+                score += 1;
+            } else{
+                display.innerHTML = `Fout, het was een ${a}, ${r}, ${fof}.`
+            }
+            
+            answeredQuestions += 1;
+            askQuestion();
         };
         
     } else {
