@@ -310,10 +310,10 @@ export const helicopters = [
     ],
     //ec135
     [
-        '../images/helicopters/tiger/tiger-1.webp',
-        '../images/helicopters/tiger/tiger-2.jpg',
-        '../images/helicopters/tiger/tiger-3.webp',
-        '../images/helicopters/tiger/tiger-4.webp',
+        '../images/helicopters/ec135/ec135-1.jpg',
+        '../images/helicopters/ec135/ec135-2.webp',
+        '../images/helicopters/ec135/ec135-3.jpg',
+        '../images/helicopters/ec135/ec135-4.jpg',
 
     ],
     //blackhawk
